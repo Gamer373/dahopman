@@ -1,0 +1,32 @@
+body{
+
+    background-image: url("/website/images/rocketleaguebackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color:white;
+    background-color: rgb(9, 81, 214);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.nav{
+    color:rgb(27, 228, 255);
+    font-size: 2em;
+    margin: 0.5em;
+    
+}
+
+div#navbar{
+    background-color: rgba(0, 21, 139, 0.75);
+    
+}
+
+ul#navitem{
+    
+}
