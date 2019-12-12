@@ -32,7 +32,11 @@ a{
 }
 
 div#navbar{
-    background-color: rgb(9, 81, 214);
+    background-color: rgb(6, 59, 156);
+    border: solid;
+    border-color: rgb(26, 97, 230);
+    border-width: 0.5em;
+    margin: 0.5em;
     
 }
 
@@ -44,17 +48,27 @@ ul#navitem{
 }
 
 h1{
-    font-size: 3em;
+    font-size: 4em;
     background-color: rgba(9, 81, 214, 0.5)
 }
 
 p{
-    font-size: 1.5em;
+    font-size: 3.5em;
     background-color: rgba(9, 81, 214, 0.5)
 }
 
 
 ul#vraaglijst{
     background-color: rgba(9, 81, 214, 0.5);
+    list-style-type: none;
+    font-size: 3em;
+
+}
+
+div#inleiding{
+    width: 80em;
+    border: solid;
+    border-color: rgb(26, 97, 230);
+    margin: 0em 0.5em;
 
 }
