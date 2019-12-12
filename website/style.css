@@ -1,3 +1,4 @@
+
 body{
 
     background-image: url("/website/images/rocketleaguebackground.jpg");
@@ -6,27 +7,54 @@ body{
 
     color:white;
     background-color: rgb(9, 81, 214);
+    
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
-.nav{
+li.nav{
+    list-style-type: none;
+    text-align: center;
     color:rgb(27, 228, 255);
     font-size: 2em;
     margin: 0.5em;
+    float: left;
     
 }
 
+a{
+    color: rgb(27, 228, 255);
+    text-decoration: none;
+}
+
 div#navbar{
-    background-color: rgba(0, 21, 139, 0.75);
+    background-color: rgb(9, 81, 214);
     
 }
 
 ul#navitem{
-    
+    padding: 0px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+h1{
+    font-size: 3em;
+    background-color: rgba(9, 81, 214, 0.5)
+}
+
+p{
+    font-size: 1.5em;
+    background-color: rgba(9, 81, 214, 0.5)
+}
+
+
+ul#vraaglijst{
+    background-color: rgba(9, 81, 214, 0.5);
+
 }
