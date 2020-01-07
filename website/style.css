@@ -13,6 +13,7 @@ body{
     color:white;
     background-color: rgb(9, 81, 214);
     max-width: 900px;
+    min-width: 900px;
     float: center;
     position: auto;
     margin: 0 auto;
