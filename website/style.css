@@ -27,6 +27,8 @@ body{
     
 }
 
+/* Navigation Bar */
+
 li.navitem{
     list-style-type: none;
     text-align: right;
@@ -68,6 +70,7 @@ ul#nav{
 
 }
 
+/* Voorpagina */
 
 h1#titel{
     font-size: 80px;
@@ -92,15 +95,21 @@ div.inleiding{
  
 }
 
+/* Pagina Inhoud */
+
 div.blok{
     margin: 2% 2% 10% 2%;
     width: 94%;
     border: solid;
     border-color: rgb(26, 97, 230);
     background-color: rgba(9, 81, 214, 0.6);
-    padding: 15px;
+    padding: 10px;
     font-size: 50px;
 
+}
+p{
+    padding: 0;
+    margin: 0;
 }
 
 img.groot{
