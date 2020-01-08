@@ -1,6 +1,7 @@
 @font-face {
     font-family: gothic;
     src: url("/website/font/leaguegothic.otf");
+
 }
 
 body{
@@ -42,14 +43,13 @@ li.navitem{
 
 li a{
     display: block;
-    text-decoration: none;
     color: rgb(27, 228, 255);
+    text-decoration: none;
 }
 
 li a:hover{
     background-color: rgb(9, 109, 223);
     color: rgb(27, 228, 255);
-    text-decoration: none;
 
 }
 
@@ -72,14 +72,9 @@ ul#nav{
 
 /* Voorpagina */
 
-h1#titel{
-    font-size: 80px;
-
-}
-
 ul#vraaglijst{
     list-style-type: none;
-    font-size: 50px;
+    font-size: 60px;
 
 }
 
@@ -90,7 +85,7 @@ div.inleiding{
     border-color: rgb(26, 97, 230);
     background-color: rgba(9, 81, 214, 0.6);
     padding: 10px;
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
  
 }
@@ -104,12 +99,20 @@ div.blok{
     border-color: rgb(26, 97, 230);
     background-color: rgba(9, 81, 214, 0.6);
     padding: 10px;
-    font-size: 50px;
+    font-size: 60px;
 
 }
+
 p{
     padding: 0;
     margin: 0;
+
+}
+
+h1.titel{
+    font-size: 80px;
+    text-align: center;
+
 }
 
 img.groot{
