@@ -18,6 +18,7 @@ body{
     float: center;
     position: auto;
     margin: 0 auto;
+    
 }
 
 *{
@@ -122,4 +123,5 @@ img.groot{
 
 a.link{
     color: rgb(27, 228, 255);
+
 }
